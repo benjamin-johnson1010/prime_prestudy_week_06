@@ -1,0 +1,61 @@
+html{
+  background: radial-gradient(#7FFFD4,#00008B);
+}
+.resumeBody{
+  display:none;
+
+}
+body {
+  font-family: "Times New Roman", serif;
+  height: 150%;
+  text-align: left;
+  margin: 1in;
+  }
+h1{
+ font-size:32px;
+ text-shadow: 0 1px 2px #FFFFFF;
+  text-align: center;
+  padding-right: 1in;
+    }
+h2{
+   font-size: 16px;
+    text-align: center;
+    padding-right: 3in;
+}
+.job-description, .title-position, .job-description-body{
+  font-size: 16px;
+  }
+.title-position, {
+  padding-left: .5in;
+}
+.job-description-body{
+  padding-left: 1in;
+  }
+.hr1{
+  width: 80%;
+  margin: .5em;
+  }
+.container {
+  display: flex;
+}
+.bg img{
+  float: right;
+  margin-right: 150px;
+  border: 1px;
+  overflow: hidden;
+    }
+.bucky{
+  float: left;
+  border: 1px;
+  margin: 5px;
+    }
+a{
+  color: #191970;
+  transition: color 0.2s ease 0.1s;
+}
+a:hover{
+  color: #DC143C;
+}
+.box{
+  box-shadow: 2px 2px 2px #000;
+}
